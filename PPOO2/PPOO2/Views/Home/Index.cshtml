@@ -1,8 +1,10 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h2 class="mb-4">Proyecto sin Tema aún ver1</h2>
+
+@if (ViewBag.Mensaje != null)
+{
+    <div class="alert alert-success">@ViewBag.Mensaje</div>
+}

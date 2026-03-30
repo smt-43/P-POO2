@@ -1,0 +1,24 @@
+﻿@model PPOO2.Models.ViewModels.LoginViewModel
+
+<h2 class="mb-4">Iniciar Sesión</h2>
+<form asp-action="Login" method="post">
+    <div asp-validation-summary="All"></div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="Email">Correo electrónico</label>
+        <input asp-for="Email" class="form-control" placeholder="correo@correo.com" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="Password">Contraseña</label>
+        <input asp-for="Password" class="form-control" type="password" placeholder="••••••" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <div class="mb-4" form-check>
+        <input asp-for="RememberMe" class="form-check-input" type="checkbox" />
+        <label class="form-check-label" asp-for="RememberMe" for="checkDefault">Recuérdame</label>
+    </div>
+    <div class="d-grid gap-2 d-md-block">
+        <a href="/Home/Index" class="btn btn-outline-secondary">Regresar</a>
+        <button type="submit" class="btn btn-outline-primary ms-1">Ingresar</button>
+    </div>
+</form>

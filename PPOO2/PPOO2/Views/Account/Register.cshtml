@@ -1,0 +1,25 @@
+﻿@model PPOO2.Models.ViewModels.RegisterViewModel
+
+<h2 class="mb-4">Registro de Usuario</h2>
+<form asp-action="Register" method="post">
+    <div asp-validation-summary="All"></div>
+    <div class="mb-3">
+        <label class="form-label">Correo electrónico</label>
+        <input asp-for="Email" class="form-control" placeholder="correo@correo.com" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Contraseña</label>
+        <input asp-for="Password" class="form-control" type="password" placeholder="••••••" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <div class="mb-5">
+        <label class="form-label">Nombre Completo</label>
+        <input asp-for="FullName" class="form-control" placeholder="Juan Carlos Bodoque" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+    <div class="d-grid gap-2 d-md-block">
+        <a href="/Home/Index" class="btn btn-outline-secondary">Regresar</a>
+        <button type="submit" class="btn btn-outline-primary ms-1">Registrar</button>
+    </div>
+</form>

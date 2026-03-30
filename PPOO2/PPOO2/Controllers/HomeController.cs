@@ -15,6 +15,7 @@ namespace PPOO2.Controllers
 
         public IActionResult Index()
         {
+            if (TempData["Msg"] != null) ViewBag.Mensaje = TempData["Msg"];
             return View();
         }
 
