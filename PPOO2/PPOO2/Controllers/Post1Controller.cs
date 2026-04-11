@@ -10,87 +10,87 @@ using PPOO2.Models;
 
 namespace PPOO2.Controllers
 {
-    public class Item1Controller : Controller
+    public class Post1Controller : Controller
     {
         private readonly AppDbContext _context;
 
-        public Item1Controller(AppDbContext context)
+        public Post1Controller(AppDbContext context)
         {
             _context = context;
         }
 
-        // GET: Item1
+        // GET: Post1
         public async Task<IActionResult> Index()
         {
-              return _context.Items1 != null ? 
-                          View(await _context.Items1.ToListAsync()) :
-                          Problem("Entity set 'AppDbContext.Items1'  is null.");
+              return _context.Record_1 != null ? 
+                          View(await _context.Record_1.ToListAsync()) :
+                          Problem("Entity set 'AppDbContext.Record_1'  is null.");
         }
 
-        // GET: Item1/Details/5
+        // GET: Post1/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Items1 == null)
+            if (id == null || _context.Record_1 == null)
             {
                 return NotFound();
             }
 
-            var item1 = await _context.Items1
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (item1 == null)
+            var post1 = await _context.Record_1
+                .FirstOrDefaultAsync(m => m.id == id);
+            if (post1 == null)
             {
                 return NotFound();
             }
 
-            return View(item1);
+            return View(post1);
         }
 
-        // GET: Item1/Create
+        // GET: Post1/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Item1/Create
+        // POST: Post1/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,name,desc,n1,IsAvailable")] Item1 item1)
+        public async Task<IActionResult> Create([Bind("id,title,artist,genre,release_date,url,uploader,description,upload_date,imagePath1,imagePath2,imagePath3,approbation")] Post1 post1)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(item1);
+                _context.Add(post1);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(item1);
+            return View(post1);
         }
 
-        // GET: Item1/Edit/5
+        // GET: Post1/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Items1 == null)
+            if (id == null || _context.Record_1 == null)
             {
                 return NotFound();
             }
 
-            var item1 = await _context.Items1.FindAsync(id);
-            if (item1 == null)
+            var post1 = await _context.Record_1.FindAsync(id);
+            if (post1 == null)
             {
                 return NotFound();
             }
-            return View(item1);
+            return View(post1);
         }
 
-        // POST: Item1/Edit/5
+        // POST: Post1/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,name,desc,n1,IsAvailable")] Item1 item1)
+        public async Task<IActionResult> Edit(int id, [Bind("id,title,artist,genre,release_date,url,uploader,description,upload_date,imagePath1,imagePath2,imagePath3,approbation")] Post1 post1)
         {
-            if (id != item1.Id)
+            if (id != post1.id)
             {
                 return NotFound();
             }
@@ -99,12 +99,12 @@ namespace PPOO2.Controllers
             {
                 try
                 {
-                    _context.Update(item1);
+                    _context.Update(post1);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!Item1Exists(item1.Id))
+                    if (!Post1Exists(post1.id))
                     {
                         return NotFound();
                     }
@@ -115,49 +115,49 @@ namespace PPOO2.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(item1);
+            return View(post1);
         }
 
-        // GET: Item1/Delete/5
+        // GET: Post1/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Items1 == null)
+            if (id == null || _context.Record_1 == null)
             {
                 return NotFound();
             }
 
-            var item1 = await _context.Items1
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (item1 == null)
+            var post1 = await _context.Record_1
+                .FirstOrDefaultAsync(m => m.id == id);
+            if (post1 == null)
             {
                 return NotFound();
             }
 
-            return View(item1);
+            return View(post1);
         }
 
-        // POST: Item1/Delete/5
+        // POST: Post1/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Items1 == null)
+            if (_context.Record_1 == null)
             {
-                return Problem("Entity set 'AppDbContext.Items1'  is null.");
+                return Problem("Entity set 'AppDbContext.Record_1'  is null.");
             }
-            var item1 = await _context.Items1.FindAsync(id);
-            if (item1 != null)
+            var post1 = await _context.Record_1.FindAsync(id);
+            if (post1 != null)
             {
-                _context.Items1.Remove(item1);
+                _context.Record_1.Remove(post1);
             }
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool Item1Exists(int id)
+        private bool Post1Exists(int id)
         {
-          return (_context.Items1?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.Record_1?.Any(e => e.id == id)).GetValueOrDefault();
         }
     }
 }

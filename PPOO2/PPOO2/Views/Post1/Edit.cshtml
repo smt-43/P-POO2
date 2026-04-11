@@ -1,0 +1,89 @@
+﻿@model PPOO2.Models.Post1
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Post1</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="id" />
+            <div class="form-group">
+                <label asp-for="title" class="control-label"></label>
+                <input asp-for="title" class="form-control" />
+                <span asp-validation-for="title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="artist" class="control-label"></label>
+                <input asp-for="artist" class="form-control" />
+                <span asp-validation-for="artist" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="genre" class="control-label"></label>
+                <input asp-for="genre" class="form-control" />
+                <span asp-validation-for="genre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="release_date" class="control-label"></label>
+                <input asp-for="release_date" class="form-control" />
+                <span asp-validation-for="release_date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="url" class="control-label"></label>
+                <input asp-for="url" class="form-control" />
+                <span asp-validation-for="url" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="uploader" class="control-label"></label>
+                <input asp-for="uploader" class="form-control" />
+                <span asp-validation-for="uploader" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="description" class="control-label"></label>
+                <input asp-for="description" class="form-control" />
+                <span asp-validation-for="description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="upload_date" class="control-label"></label>
+                <input asp-for="upload_date" class="form-control" />
+                <span asp-validation-for="upload_date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="imagePath1" class="control-label"></label>
+                <input asp-for="imagePath1" class="form-control" />
+                <span asp-validation-for="imagePath1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="imagePath2" class="control-label"></label>
+                <input asp-for="imagePath2" class="form-control" />
+                <span asp-validation-for="imagePath2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="imagePath3" class="control-label"></label>
+                <input asp-for="imagePath3" class="form-control" />
+                <span asp-validation-for="imagePath3" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="approbation" /> @Html.DisplayNameFor(model => model.approbation)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

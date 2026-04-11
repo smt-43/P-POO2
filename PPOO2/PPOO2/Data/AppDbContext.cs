@@ -8,7 +8,7 @@ namespace PPOO2.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<Item1> Items1 { get; set; }
+        public DbSet<Post1> Record_1 { get; set; }
 
     }
 }

@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\views\\item1\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\views\\item1\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\views\\item1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\views\\item1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\views\\post1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\views\\post1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,32 +15,36 @@
       "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\controllers\\item1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\controllers\\item1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\models\\item1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\models\\item1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\views\\shared\\_messagepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\views\\shared\\_messagepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\controllers\\post1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\controllers\\post1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|d:\\cosas#3_ahora_enserio\\almac\u00E9n\\1. clases_backup\\programacion orientada a objetos 2\\rep-poo2\\ppoo2\\ppoo2\\models\\post1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5732F832-2523-4158-B3AD-73578A003CB4}|PPOO2\\PPOO2.csproj|solutionrelative:ppoo2\\models\\post1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,84 +59,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Views\\Item1\\Create.cshtml",
-              "RelativeDocumentMoniker": "PPOO2\\Views\\Item1\\Create.cshtml",
-              "ToolTip": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Views\\Item1\\Create.cshtml",
-              "RelativeToolTip": "PPOO2\\Views\\Item1\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Views\\Post1\\Index.cshtml",
+              "RelativeDocumentMoniker": "PPOO2\\Views\\Post1\\Index.cshtml",
+              "ToolTip": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Views\\Post1\\Index.cshtml",
+              "RelativeToolTip": "PPOO2\\Views\\Post1\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-30T14:14:33.855Z",
+              "WhenOpened": "2026-04-11T08:19:51.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
+              "Title": "Post1Controller.cs",
+              "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Controllers\\Post1Controller.cs",
+              "RelativeDocumentMoniker": "PPOO2\\Controllers\\Post1Controller.cs",
+              "ToolTip": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Controllers\\Post1Controller.cs",
+              "RelativeToolTip": "PPOO2\\Controllers\\Post1Controller.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T08:06:09.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Post1.cs",
+              "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Models\\Post1.cs",
+              "RelativeDocumentMoniker": "PPOO2\\Models\\Post1.cs",
+              "ToolTip": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Models\\Post1.cs",
+              "RelativeToolTip": "PPOO2\\Models\\Post1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T05:48:50.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_MessagePartial.cshtml",
+              "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Views\\Shared\\_MessagePartial.cshtml",
+              "RelativeDocumentMoniker": "PPOO2\\Views\\Shared\\_MessagePartial.cshtml",
+              "ToolTip": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Views\\Shared\\_MessagePartial.cshtml",
+              "RelativeToolTip": "PPOO2\\Views\\Shared\\_MessagePartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-11T05:14:37.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PPOO2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PPOO2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T21:22:34.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PPOO2\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "PPOO2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-30T14:04:23.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Views\\Item1\\Index.cshtml",
-              "RelativeDocumentMoniker": "PPOO2\\Views\\Item1\\Index.cshtml",
-              "ToolTip": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Views\\Item1\\Index.cshtml",
-              "RelativeToolTip": "PPOO2\\Views\\Item1\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-30T14:02:21.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Item1Controller.cs",
-              "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Controllers\\Item1Controller.cs",
-              "RelativeDocumentMoniker": "PPOO2\\Controllers\\Item1Controller.cs",
-              "ToolTip": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Controllers\\Item1Controller.cs",
-              "RelativeToolTip": "PPOO2\\Controllers\\Item1Controller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T14:01:40.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Item1.cs",
-              "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Models\\Item1.cs",
-              "RelativeDocumentMoniker": "PPOO2\\Models\\Item1.cs",
-              "ToolTip": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Models\\Item1.cs",
-              "RelativeToolTip": "PPOO2\\Models\\Item1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T13:43:43.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "PPOO2\\Views\\Account\\Login.cshtml",
               "ToolTip": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "PPOO2\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBUAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-30T11:33:32.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "PPOO2\\Views\\Account\\Register.cshtml",
@@ -144,11 +157,12 @@
               "RelativeToolTip": "PPOO2\\Views\\Account\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-30T11:27:19.393Z"
+              "WhenOpened": "2026-03-30T11:27:19.393Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Models\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "PPOO2\\Models\\ViewModels\\LoginViewModel.cs",
@@ -161,40 +175,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Models\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "PPOO2\\Models\\ViewModels\\RegisterViewModel.cs",
               "ToolTip": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Models\\ViewModels\\RegisterViewModel.cs",
               "RelativeToolTip": "PPOO2\\Models\\ViewModels\\RegisterViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-30T11:06:47.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "PPOO2\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Controllers\\AccountController.cs",
               "RelativeToolTip": "PPOO2\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T11:00:17.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "PPOO2\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\cosas#3_ahora_enserio\\Almac\u00E9n\\1. Clases_Backup\\Programacion Orientada a Objetos 2\\rep-POO2\\PPOO2\\PPOO2\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "PPOO2\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T10:38:40.309Z",
+              "WhenOpened": "2026-03-30T11:00:17.481Z",
               "EditorCaption": ""
             }
           ]
