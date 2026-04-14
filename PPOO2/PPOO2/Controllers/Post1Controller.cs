@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PPOO2.Data;
 using PPOO2.Models;
+using PPOO2.Repositories;
+using System;
+using System.Collections.Generic;
+using System.Drawing.Printing;
+using System.Linq;
+using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace PPOO2.Controllers
 {
@@ -20,11 +23,27 @@ namespace PPOO2.Controllers
         }
 
         // GET: Post1
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(
+            string titulo = null,
+            string artista = null,
+            string genero = null,
+            int page = 1,
+            int pageSize = 5)
         {
-              return _context.Record_1 != null ? 
-                          View(await _context.Record_1.ToListAsync()) :
-                          Problem("Entity set 'AppDbContext.Record_1'  is null.");
+            var repo = new Post1Repository(_context.Database.GetDbConnection().ConnectionString);
+
+            var (items, total) = await repo.FiltrarPaginado1Async(titulo, artista, genero, page, pageSize);
+
+            ViewBag.Titulo = titulo ?? "";
+            ViewBag.Artista = artista ?? "";
+            ViewBag.Genero = genero ?? "";
+
+            ViewBag.Page = page;
+            ViewBag.PageSize = pageSize;
+            ViewBag.TotalRegistros = total;
+            ViewBag.TotalPaginas = (int)Math.Ceiling((double)total / pageSize);
+
+            return View(items);
         }
 
         // GET: Post1/Details/5

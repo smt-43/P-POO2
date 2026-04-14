@@ -1,14 +1,47 @@
-﻿@model IEnumerable<PPOO2.Models.Post1>
+﻿@model IEnumerable<PPOO2.Models.ViewModels.ListPost1>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Listado";
+    int page = ViewBag.Page ?? 1;
+    int pageSize = ViewBag.PageSize ?? 5;
+    int totalRegistros = ViewBag.TotalRegistros ?? 0;
+    int totalPaginas = ViewBag.TotalPaginas ?? 0;
 }
 
-<h1>Index</h1>
+<h1>Lista de Recomendaciones (incompleta)</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-primary" asp-action="Create">Crear Nuevo</a>
 </p>
+
+<form method="get" action="@Url.Action("Index", "Post1")" id="filtersForm">
+    <div class="row g-2">
+        <div class="col-md-3">
+            <label class="form-label mb-1">Titulo</label>
+            <input class="form-control" type="text" placeholder="Ingrese el Nombre o Titulo a buscar"
+                   name="titulo" value="@ViewBag.Titulo" />
+        </div>
+        <div class="col-md-3">
+            <label class="form-label mb-1">Artista</label>
+            <input class="form-control" type="text" placeholder="Ingrese el Artista a buscar"
+                   name="artista" value="@ViewBag.Artista" />
+        </div>
+        <div class="col-md-3">
+            <label class="form-label mb-1">Género</label>
+            <input class="form-control" type="text" placeholder="Ingrese el Género a buscar"
+                   name="genero" value="@ViewBag.Genero" />
+        </div>
+        <div class="col-md-auto">
+            <label class="form-label text-white mb-1">.</label>
+            <button type="submit" class="btn btn-success form-control">Filtrar</button>
+        </div>
+        <div class="col-md-auto">
+            <label class="form-label text-white mb-1">.</label>
+            <button type="button" class="btn btn-secondary form-control" id="btnClear">Limpiar</button>
+        </div>
+    </div>
+</form>
+
 <table class="table">
     <thead>
         <tr>
@@ -69,3 +102,68 @@
 }
     </tbody>
 </table>
+
+@if (totalRegistros > 0)
+{
+    <nav aria-label="Paginación">
+        <ul class="pagination">
+            @* Anterior *@
+            @if (page > 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="@Url.Action("Index", new {
+                        titulo = ViewBag.Titulo,
+                        artista = ViewBag.Artista,
+                        genero = ViewBag.Genero,
+                        page = page - 1,
+                        pageSize = pageSize
+                    })">◁</a>
+                </li>
+            }
+            <li class="page-item disabled">
+                <span class="page-link">Página @(page) de @(totalPaginas)</span>
+            </li>
+            @* Siguiente *@
+            @if (page < totalPaginas)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="@Url.Action("Index", new {
+                        titulo = ViewBag.Titulo,
+                        artista = ViewBag.Artista,
+                        genero = ViewBag.Genero,
+                        page = page + 1,
+                        pageSize = pageSize
+                    })">▷</a>
+                </li>
+            }
+        </ul>
+    </nav>
+}
+
+@section Scripts {
+    <script>
+        (function(){
+            var BtnClear = document.getElementById('btnClear');
+            var form = document.getElementById('filtersForm');
+
+            BtnClear.addEventListener('click', function(){
+                if(!form) return;
+
+                var elements = form.querySelectorAll('input, select')
+                elements.forEach(function(el){
+                    if (el.tagName.toLowerCase() === 'select'){
+                        el.selectedIndex = 0;
+                    } else {
+                        el.value = '';
+                    }
+                });
+
+                var pageSize = form.querySelector('input[name="pageSize"]');
+                if(pageSize) pageSize.value = 5;
+
+                form.submit();
+            });
+        })();
+    </script>
+}
+

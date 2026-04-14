@@ -12,7 +12,7 @@ namespace PPOO2.Models
         public string genre { get; set; }
 
         [DataType(DataType.Date)]
-        public DateTime release_date { get; set; }
+        public DateTime? release_date { get; set; }
         public string url { get; set; }
         public string uploader { get; set; }
         public string description { get; set; }
